@@ -1,0 +1,302 @@
+body{
+	
+	background-color: #202020;
+
+
+
+}
+
+/*à partir d'ici, ça sert à changer la scroll bar (c'est la barre qui montre où on est dans la page)*/
+html{
+	
+	overflow: scroll;
+	
+	overflow-x: hidden;
+
+}
+
+	::-webkit-scrollbar {
+	
+		width: 5px;
+	
+	}
+
+	::-webkit-scrollbar-thumb {
+
+		background : #5F5F5F;
+
+		border-radius: 5px;
+	
+	}
+
+
+	/*Le code pour changer la scroll bar se finit ici*/
+
+.top{
+
+	background-color: #252525;
+
+	border-radius: 15px;
+
+	position: fixed;
+
+	display: inline-flex;
+
+	margin-top: -60px;
+
+	padding: 20px;
+
+	height: 80px;
+
+	width: 96.5%;
+
+}
+
+.topboutons > a{
+
+	display: inline-block;
+
+	color: white;	
+	
+	text-decoration: none;
+		
+	font-size: 18px;
+
+	margin-left: 100px;
+
+	margin-top: 35px;
+	
+	font-family: Calibri;
+
+}
+
+.topboutons > a:hover
+{
+
+	color: #912E2E;
+
+}
+
+.topimg {
+	
+	width: 125px;
+
+	height: 125px;
+
+	margin-top: 2.5px;
+}
+
+
+.pdp {
+
+	width: 100px;
+
+	height: 100px;
+
+	margin-left: 252.5px;
+
+	margin-top: 15px;
+
+}
+
+/*à partir d'ici, tout vas servir pour le grand slider en haut*/
+
+.box {
+
+	width: 475px;
+
+	height: 205px;
+
+	box-shadow: 2px 2px 30px black;
+
+	border-radius: 10px;
+
+	overflow: hidden;
+
+	margin-left: 415px;
+
+	margin-top: 50px;
+
+}
+
+
+
+.slide-img {
+
+	height: auto;
+
+	position: relative;
+
+	width: auto;
+
+}
+
+.overlay {
+
+	position: absolute;
+
+	left: 50%;
+
+	top: 50%;
+
+	transform: translate(-50%, -50%);
+
+	width: 101%;
+
+	height: 100%;
+
+	background-color: rgba(0,0.0,0,0.8);
+
+	display: flex;
+
+	margin-top: -2.5px;
+
+}
+
+.snow {
+
+	height: 100%;
+
+	margin-top: -2.5px;
+
+}
+
+.info {
+
+	width: 160px;
+
+	height: 40px;
+	
+	display: flex;
+	
+	justify-content: center;
+	
+	align-items: center;
+	
+	color: white;
+	
+	text-decoration: none;
+	
+	margin-top: 50px;
+	
+	margin-left: 10px;
+
+}
+
+.overlay {
+
+	visibility: hidden;
+
+}
+
+.slide-img:hover .overlay{
+
+	visibility: visible;
+
+	animation: overlay 0.5s;
+
+}
+
+@keyframes overlay{
+
+	from{
+
+		opacity: 0;
+
+	}
+
+
+	to{
+
+		opacity: 1;
+	
+	}
+
+}
+
+.slide-img img{
+
+	width: auto;
+
+	height: auto;
+
+	object-fit: cover;
+
+	box-sizing: border-box;
+
+	object-fit: cover;
+
+	position: relative;
+
+}
+
+/*C'est bon, ça fini ici pour la grande slide ! */
+
+/*à partir d'ici, tout vas servir à faire la slide juste en dessous de la grande slide du haut, c'est celle des studios*/
+
+.petitesbox {
+
+	width: 200px;
+
+	height: 125px;
+
+	box-shadow: 2px 2px 30px black;
+
+	border-radius: 15px;
+
+	overflow: hidden;
+
+	margin-left: 300px;
+
+	margin-top: 70px;
+
+}
+.petitoverlay {
+
+	position: absolute;
+
+	transform: translate(-50%, -50%);
+
+	width: 200px;
+
+	height: 125px;
+
+	visibility: hidden;
+
+	margin-left: -200px;
+
+	margin-top: -66.5px;
+
+}
+
+.slide-studio img {
+
+	width: 200px;
+
+	height: 125px;
+
+	object-fit: cover;
+
+	box-sizing: border-box;
+
+	object-fit: cover;
+
+	position: relative;
+
+}
+
+.hover {
+
+	border-radius: 15px;
+
+}
+
+.slide-studio:hover .petitoverlay{
+
+	visibility: visible;
+
+	animation: overlay 0.5s;
+
+}
+
+/*Voilà ! Tout ce qui servait à la slide juste en dessous de la grande slide du haut, celle des studios, se finit ici !*/
