@@ -344,6 +344,18 @@ html{
 
 }
 
+.pdp {
+
+	width: 100px;
+
+	height: 100px;
+
+	margin-right: 5px;
+
+	margin-top: 15px;	
+	
+}
+	
 /*à partir d'ici, tout vas servir pour le grand slider en haut*/
 
 .lSSlideOuter .lightSlider > *, .lSSlideOuter .lSGallery li {
