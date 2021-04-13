@@ -300,3 +300,64 @@ html{
 }
 
 /*Voilà ! Tout ce qui servait à la slide juste en dessous de la grande slide du haut, celle des studios, se finit ici !*/
+
+
+/*Ici, c'est le responsive ! */
+
+@media screen and (max-width: 1024px) {
+
+.top{
+
+	background-color: #252525;
+
+	border-radius: 15px;
+
+	position: fixed;
+
+	display: inline-flex;
+
+	margin-top: -60px;
+
+	padding: 20px;
+
+	height: 80px;
+
+	width: 93.8%;
+
+}
+
+.topboutons > a{
+
+	display: inline-block;
+
+	color: white;	
+	
+	text-decoration: none;
+		
+	font-size: 18px;
+
+	margin-left: 31.59px;
+
+	margin-top: 35px;
+	
+	font-family: Calibri;
+
+}
+
+/*à partir d'ici, tout vas servir pour le grand slider en haut*/
+
+.lSSlideOuter .lightSlider > *, .lSSlideOuter .lSGallery li {
+
+	float: left;
+
+	margin-left: 125px;
+
+}
+
+.box {
+
+	margin-left: -220px;
+
+}
+
+}
