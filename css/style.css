@@ -2,8 +2,6 @@ body{
 	
 	background-color: #202020;
 
-
-
 }
 
 /*à partir d'ici, ça sert à changer la scroll bar (c'est la barre qui montre où on est dans la page)*/
@@ -355,6 +353,13 @@ html{
 	margin-top: 15px;	
 	
 }
+	
+body{
+	
+	background-color: white;
+
+}
+
 	
 /*à partir d'ici, tout vas servir pour le grand slider en haut*/
 
