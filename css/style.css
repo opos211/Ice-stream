@@ -1,6 +1,6 @@
 body{
 	
-	background-color: yellow;
+	background-color: red;
 
 }
 
@@ -304,7 +304,7 @@ html{
 
 /*Ici, c'est le responsive ! */
 
-@media screen and (max-width: 1178px) {
+@media screen and (max-width: 1179px) {
 
 .top{
 
@@ -358,7 +358,7 @@ html{
 	
 body{
 	
-	background-color: red;
+	background-color: blue;
 
 }
 
