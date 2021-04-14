@@ -358,7 +358,7 @@ html{
 	
 body{
 	
-	background-color: #202020;
+	background-color: white;
 
 }
 
@@ -373,6 +373,10 @@ body{
 
 }
 
+.box {
 
+	left: 100px;
+	
+}
 
 }
