@@ -148,6 +148,8 @@ html{
 	display: flex;
 
 	margin-top: -2.5px;
+	
+	border-radius: 10px;
 
 }
 
@@ -302,7 +304,7 @@ html{
 
 /*Ici, c'est le responsive ! */
 
-@media screen and (max-width: 1124px) {
+@media screen and (max-width: 1424px) {
 
 .top{
 
