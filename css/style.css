@@ -322,7 +322,7 @@ html{
 
 	height: 80px;
 
-	width: 93.8%;
+	width: 94%;
 
 }
 
@@ -350,7 +350,7 @@ html{
 
 	height: 100px;
 
-	margin-right: -100px;
+	margin-right: -1000px;
 
 	margin-top: 15px;	
 	
@@ -358,7 +358,7 @@ html{
 	
 body{
 	
-	background-color: blue;
+	background-color: #202020;
 
 }
 
@@ -369,7 +369,7 @@ body{
 
 	float: left;
 
-	margin-left: 100px;
+	margin-left: 75px;
 
 }
 
